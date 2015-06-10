@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29BC350D1B2824CC004C6D59 /* maskLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BC350C1B2824CC004C6D59 /* maskLayerViewController.m */; };
+		29BC35111B2826CD004C6D59 /* redDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 29BC35101B2826CD004C6D59 /* redDot.png */; };
 		646CB3651B27277500D5AE30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 646CB3641B27277500D5AE30 /* main.m */; };
 		646CB3681B27277500D5AE30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 646CB3671B27277500D5AE30 /* AppDelegate.m */; };
 		646CB36B1B27277500D5AE30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646CB36A1B27277500D5AE30 /* ViewController.m */; };
@@ -31,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29BC350B1B2824CC004C6D59 /* maskLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maskLayerViewController.h; sourceTree = "<group>"; };
+		29BC350C1B2824CC004C6D59 /* maskLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = maskLayerViewController.m; sourceTree = "<group>"; };
+		29BC35101B2826CD004C6D59 /* redDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redDot.png; sourceTree = "<group>"; };
 		646CB35F1B27277500D5AE30 /* POPping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POPping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		646CB3631B27277500D5AE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		646CB3641B27277500D5AE30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -110,6 +115,7 @@
 			children = (
 				646CB3901B27306800D5AE30 /* y1.jpg */,
 				646CB3911B27306800D5AE30 /* y2.jpg */,
+				29BC35101B2826CD004C6D59 /* redDot.png */,
 				646CB3631B27277500D5AE30 /* Info.plist */,
 				646CB3641B27277500D5AE30 /* main.m */,
 			);
@@ -138,6 +144,8 @@
 			children = (
 				646CB3891B27288900D5AE30 /* secondViewController.h */,
 				646CB38A1B27288900D5AE30 /* secondViewController.m */,
+				29BC350B1B2824CC004C6D59 /* maskLayerViewController.h */,
+				29BC350C1B2824CC004C6D59 /* maskLayerViewController.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -233,6 +241,7 @@
 			files = (
 				646CB3931B27306800D5AE30 /* y2.jpg in Resources */,
 				646CB36E1B27277500D5AE30 /* Main.storyboard in Resources */,
+				29BC35111B2826CD004C6D59 /* redDot.png in Resources */,
 				646CB3731B27277500D5AE30 /* LaunchScreen.xib in Resources */,
 				646CB3701B27277500D5AE30 /* Images.xcassets in Resources */,
 				646CB3921B27306800D5AE30 /* y1.jpg in Resources */,
@@ -253,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29BC350D1B2824CC004C6D59 /* maskLayerViewController.m in Sources */,
 				646CB38B1B27288900D5AE30 /* secondViewController.m in Sources */,
 				646CB38F1B27294D00D5AE30 /* animationObjcet.m in Sources */,
 				646CB36B1B27277500D5AE30 /* ViewController.m in Sources */,
@@ -448,6 +458,7 @@
 				646CB3841B27277500D5AE30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		646CB3851B27277500D5AE30 /* Build configuration list for PBXNativeTarget "POPpingTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +467,7 @@
 				646CB3871B27277500D5AE30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

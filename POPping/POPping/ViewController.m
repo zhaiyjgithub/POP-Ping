@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "secondViewController.h"
 #import "animationObjcet.h"
+#import "maskLayerViewController.h"
 
 @interface ViewController () <UINavigationControllerDelegate>
 @property(nonatomic,strong)animationObjcet * animaObj;
@@ -54,6 +55,11 @@
     return self.animaObj;
 }
 
+
+//- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
+//    maskLayerViewController * maskVC = [[maskLayerViewController alloc] init];
+//    [self.navigationController pushViewController:maskVC animated:YES];
+//}
 
 
 

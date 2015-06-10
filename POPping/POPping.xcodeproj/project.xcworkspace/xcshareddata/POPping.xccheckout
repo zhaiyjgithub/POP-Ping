@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>94EF0475-4FDC-43EC-A2CC-3782D784A23A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>POPping</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E5F195A39F1D82CBBD4EBF3FC8F307631A6ACC8D</key>
+		<string>https://github.com/zhaiyjgithub/POP-ping.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>POPping/POPping.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E5F195A39F1D82CBBD4EBF3FC8F307631A6ACC8D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhaiyjgithub/POP-ping.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E5F195A39F1D82CBBD4EBF3FC8F307631A6ACC8D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E5F195A39F1D82CBBD4EBF3FC8F307631A6ACC8D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>POP-ping</string>
+		</dict>
+	</array>
+</dict>
+</plist>
