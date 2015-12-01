@@ -31,6 +31,20 @@
     UIImageView * image = [[UIImageView alloc] initWithFrame:CGRectMake(0, 150, [UIScreen mainScreen].bounds.size.width, 200)];
     image.image = [UIImage imageNamed:@"y2.jpg"];
     [self.view addSubview:image];
+    
+    
+    UIView * moveView = [[UIView alloc] initWithFrame:CGRectMake(50, 400, 200, 50)];
+    moveView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:moveView];
+    
+    CABasicAnimation * animation = [CABasicAnimation animationWithKeyPath:@"position.y"];
+    animation.toValue = @(500);
+    animation.duration = 1;
+    animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    animation.removedOnCompletion = NO;
+    animation.fillMode = kCAFillModeForwards;
+    [moveView.layer addAnimation:animation forKey:nil];
+    
     _animaObj = [[animationObjcet alloc] init];
 }
 
